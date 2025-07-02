@@ -3,14 +3,17 @@
   "type": "object",
   "properties": {
     "city": {
+      "title": "City",
       "type": "string",
       "description": "UK city to search restaurants in",
       "default": "London"
     },
     "maxRestaurants": {
+      "title": "Maximum Restaurants",
       "type": "integer",
       "description": "Maximum number of restaurants to scrape",
       "default": 20
     }
-  }
+  },
+  "required": ["city"]
 }
