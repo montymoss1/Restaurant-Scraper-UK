@@ -1,0 +1,16 @@
+{
+  "title": "UK Restaurant Scraper Input",
+  "type": "object",
+  "properties": {
+    "city": {
+      "type": "string",
+      "description": "UK city to search restaurants in",
+      "default": "London"
+    },
+    "maxRestaurants": {
+      "type": "integer",
+      "description": "Maximum number of restaurants to scrape",
+      "default": 20
+    }
+  }
+}
